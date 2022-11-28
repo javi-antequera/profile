@@ -142,11 +142,10 @@
 }
 #textohobbies{
     margin-top: 25%;
-    margin-bottom: 10%;
 }
-/*#btnExp{
-    margin-left: 40%;
-}*/
+#experiencia a{
+    cursor: pointer;
+}
 #myDIV{
     margin-left: 35%;
     width: 30%;
@@ -158,4 +157,27 @@
         width: 60%;
         display: none;
     }
+    #textohobbies{
+        margin-top: 60%;
+    }
+    #nombrePrincipal{
+        font-size: 20px;
+    }
+    .centrado{
+        top: 25%;
+    }
   }
+/* Al ponerlo centrado pierde la funcionalidad
+#modalHobbies{
+    margin-left: 40%;
+    width: 20%;
+    margin-bottom: 5%;
+} */
+#formularioSect{
+    display: none;
+    width: 50%;
+    margin-left: 40%;
+}
+#cargaForm{
+    cursor: pointer;
+}
